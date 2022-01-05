@@ -16,6 +16,11 @@ R_16 = "rating_system_16.svg"
 R_18 = "rating_system_18.svg"
 
 
+class PublishedManager(models.Manager):
+    def get_queryset(self):
+        return super(PublishedManager, self).get_queryset().filter(status=PUBLISHED)
+
+
 class Genre(models.Model):
     name = models.CharField(max_length=32)
     slug = models.SlugField(max_length=32)
@@ -28,7 +33,6 @@ class Genre(models.Model):
 
 
 class Movie(models.Model):
-
     STATUS_CHOICES = (
         (PREVIEW, "preview"),
         (PUBLISHED, "published")
@@ -51,7 +55,7 @@ class Movie(models.Model):
     slug = models.SlugField(max_length=128)
     description = models.TextField()
     genres = models.ManyToManyField(Genre)
-    published = models.DateTimeField(default=timezone.now)
+    publish = models.DateTimeField(default=timezone.now)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default=PREVIEW)
     allowed_membership = models.ManyToManyField(Membership)
     type = models.CharField(max_length=10, choices=TYPE_CHOICES, default=SINGLE)
@@ -59,14 +63,26 @@ class Movie(models.Model):
     rating = models.DecimalField(max_digits=4, decimal_places=2)
     age_limit = models.CharField(max_length=24, choices=AGE_CHOICES, default=R_ALL)
 
+    objects = models.Manager()
+    published = PublishedManager()
+
+    class Meta:
+        ordering = ['-publish']
+
+    def __str__(self):
+        return self.title
+
 
 class Video(models.Model):
     title = models.CharField(max_length=128)
     slug = models.SlugField(max_length=128)
-    description = models.TextField()
+    description = models.TextField(null=True, blank=True)
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name="videos")
     file = models.FileField(upload_to="movies")
     order = models.PositiveIntegerField()
+
+    def __str__(self):
+        return f"{self.order}. {self.title}"
 
 
 class UserMovie(models.Model):
