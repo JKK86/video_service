@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="Polish tv rating system 12 (2011).svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="73.901261"
+     inkscape:cy="94.541444"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="712"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-124.44924,-389.57265)">
+    <path
+       style="fill:#d0d154;fill-opacity:1;stroke:none;stroke-width:112.40000153000000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="M 150.9773,389.57265 C 136.32484,389.56924 124.44582,401.44826 124.44924,416.10071 L 124.44924,563.05935 C 124.45398,577.70605 136.33062,589.57607 150.9773,589.57265 L 297.93593,589.57265 C 312.57688,589.56791 324.4445,577.70029 324.44924,563.05935 L 324.44924,416.10071 C 324.45265,401.45404 312.58263,389.5774 297.93593,389.57265 L 150.9773,389.57265 z"
+       id="rect2383"
+       sodipodi:nodetypes="ccccccccc" />
+    <g
+       transform="translate(-397.9899,-15.218002)"
+       id="g2441"
+       inkscape:label="Layer 1">
+      <path
+         style="font-size:359.93212891px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Kozuka Gothic Pro H;-inkscape-font-specification:Kozuka Gothic Pro H Heavy"
+         d="M 601.49428,582.08966 L 601.49428,430.09162 L 577.36568,430.09162 L 545.788,449.29137 L 552.10354,474.69104 L 573.31726,461.29121 L 573.64114,461.29121 L 573.64114,582.08966 L 601.49428,582.08966 z M 699.09029,552.69004 L 657.47252,552.69004 L 657.47252,552.29004 L 667.83648,540.09019 C 675.64649,530.9612 682.4141,521.01967 688.13931,510.26558 C 693.86437,499.51163 696.86695,487.52014 697.14705,474.29105 C 697.20432,461.2455 693.97233,450.33732 687.45108,441.56646 C 680.92968,432.79589 670.7749,428.23763 656.98671,427.89165 C 649.83446,428.00847 643.16807,429.32512 636.98751,431.8416 C 630.8069,434.35838 625.75988,437.37501 621.84642,440.89148 L 629.29551,466.49115 C 632.17662,463.8788 635.52331,461.55383 639.3356,459.51623 C 643.14783,457.47889 647.14227,456.4039 651.31892,456.29128 C 657.21945,456.44973 661.61198,458.53304 664.49653,462.5412 C 667.38097,466.5496 668.81817,471.53286 668.8081,477.49101 C 668.71696,486.47848 665.70089,495.95335 659.75988,505.91564 C 653.81878,515.87808 645.49929,527.60292 634.80136,541.09018 L 620.55092,560.08994 L 620.55092,582.08966 L 699.09029,582.08966 L 699.09029,552.69004 z"
+         id="text3160" />
+    </g>
+  </g>
+</svg>

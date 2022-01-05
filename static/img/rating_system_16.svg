@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="Polish tv rating system 16 (2011).svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="84.692543"
+     inkscape:cy="119.86486"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="712"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-124.44924,-389.57265)">
+    <path
+       style="fill:#ea9c30;fill-opacity:1;stroke:none;stroke-width:112.40000153000000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="M 150.9773,389.57265 C 136.32484,389.56924 124.44582,401.44826 124.44924,416.10071 L 124.44924,563.05935 C 124.45398,577.70605 136.33062,589.57607 150.9773,589.57265 L 297.93593,589.57265 C 312.57688,589.56791 324.4445,577.70029 324.44924,563.05935 L 324.44924,416.10071 C 324.45265,401.45404 312.58263,389.5774 297.93593,389.57265 L 150.9773,389.57265 z"
+       id="rect2383"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="font-size:359.93212891px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Kozuka Gothic Pro H;-inkscape-font-specification:Kozuka Gothic Pro H Heavy"
+       d="M 201.07532,566.87167 L 201.07532,414.87363 L 176.94672,414.87363 L 145.36904,434.07338 L 151.68457,459.47305 L 172.8983,446.07322 L 173.22218,446.07322 L 173.22218,566.87167 L 201.07532,566.87167 z M 247.17542,477.87281 C 248.70367,468.90635 252.16506,460.9398 257.55962,453.97312 C 262.9541,447.00666 270.82826,442.64005 281.18216,440.87329 C 283.1928,440.56925 285.04158,440.32758 286.72849,440.14829 C 288.41526,439.96926 290.02113,439.87759 291.54612,439.8733 L 291.54612,413.07365 C 288.99891,413.05714 286.92747,413.09047 285.33178,413.17364 C 283.73596,413.25713 281.86694,413.49046 279.72473,413.87364 C 261.09856,415.87793 246.32859,424.86947 235.41475,440.84829 C 224.50087,456.82736 218.92081,477.96874 218.67454,504.27247 C 218.70152,523.07227 222.41257,538.47206 229.8077,550.47187 C 237.20279,562.47172 248.12002,568.67164 262.55942,569.07164 C 275.46033,568.58414 285.48691,563.05922 292.63919,552.49685 C 299.79132,541.93451 303.42139,529.25969 303.52944,514.47234 C 303.29994,499.0851 300.0747,487.26026 293.85372,478.99779 C 287.63257,470.73549 279.79213,466.56056 270.33239,466.47296 C 265.53833,466.51056 261.24026,467.53555 257.43816,469.54792 C 253.63598,471.56049 250.43099,474.33545 247.82317,477.87281 L 247.17542,477.87281 z M 262.23555,544.07196 C 257.2998,543.80532 253.56851,540.73869 251.04166,534.87208 C 248.51474,529.00552 247.17202,521.93896 247.01348,513.67235 C 247.02694,510.86411 247.16189,508.48081 247.41832,506.52244 C 247.67469,504.56419 247.97157,503.08089 248.30898,502.0725 C 249.55383,498.70178 251.27441,495.94348 253.47072,493.7976 C 255.66694,491.65187 258.15672,490.54356 260.94005,490.47265 C 265.85545,490.76439 269.4653,493.43102 271.76958,498.47254 C 274.07375,503.51421 275.21405,509.1808 275.19049,515.47233 C 275.23767,522.87644 274.25255,529.41802 272.23514,535.09707 C 270.21762,540.77619 266.88443,543.76782 262.23555,544.07196 L 262.23555,544.07196 z"
+       id="text3160" />
+  </g>
+</svg>
