@@ -1,8 +1,8 @@
 from django.db import models
 
-FREE = 1
-BASIC = 2
-PREMIUM = 3
+FREE = 'Free'
+BASIC = 'Basic'
+PREMIUM = 'Premium'
 
 
 class Membership(models.Model):
@@ -13,11 +13,10 @@ class Membership(models.Model):
         (PREMIUM, "premium"),
     )
 
-    name = models.CharField(max_length=64)
     slug = models.SlugField(max_length=64)
     type = models.IntegerField(choices=MEMBERSHIP_CHOICES, default=FREE)
     price = models.DecimalField(max_digits=5, decimal_places=2)
-    stripe_plan_id = models.CharField(max_length=64)
+    stripe_plan_id = models.CharField(max_length=64, null=True)
 
     def __str__(self):
         return self.get_type_display()

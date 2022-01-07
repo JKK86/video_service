@@ -1,0 +1,49 @@
+<!doctype html>
+{% load static %}
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Service - {% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+</head>
+<body>
+<div id="header">
+    <div class="menu">
+        <a href="">Home</a>
+    </div>
+        <div class="user">
+        {% if user.is_authenticated %}
+            <span>Witaj {{ user.first_name }}!</span>
+            <a href="">Profil</a>
+            <a href="{% url 'logout' %}">Wyloguj</a>
+            {% else %}
+            <a href="{% url 'login' %}">Zaloguj</a>
+            <a href="{% url 'register' %}">Załóż konto</a>
+        {% endif %}
+    </div>
+    <div class="admin">
+        {% if user.is_staff %}
+            <a href="{% url 'admin:index' %}">Panel administracyjny</a>
+        {% endif %}
+    </div>
+</div>
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+<div id="content">
+    {% block content %}
+
+    {% endblock %}
+</div>
+<script src="{% static 'js/app.js' %}"></script>
+{% block javascript %}
+
+{% endblock %}
+</body>
+</html>
