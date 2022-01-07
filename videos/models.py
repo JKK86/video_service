@@ -60,7 +60,6 @@ class Movie(models.Model):
     allowed_membership = models.ManyToManyField(Membership)
     type = models.CharField(max_length=10, choices=TYPE_CHOICES, default=SINGLE)
     thumbnail = models.ImageField(upload_to="thumbnails", blank=True, null=True)
-    rating = models.DecimalField(max_digits=4, decimal_places=2)
     age_limit = models.CharField(max_length=24, choices=AGE_CHOICES, default=R_ALL)
 
     objects = models.Manager()
@@ -71,6 +70,11 @@ class Movie(models.Model):
 
     def __str__(self):
         return self.title
+
+    @property
+    def rating(self):
+        movie_ratings = [x.rating for x in self.usermovie_set.all()]
+        return round(sum(movie_ratings) / len(movie_ratings))
 
 
 class Video(models.Model):
