@@ -8,18 +8,21 @@ PREMIUM = 'Premium'
 class Membership(models.Model):
 
     MEMBERSHIP_CHOICES = (
-        (FREE, "free"),
-        (BASIC, "basic"),
-        (PREMIUM, "premium"),
+        (FREE, "Free"),
+        (BASIC, "Basic"),
+        (PREMIUM, "Premium"),
     )
 
     slug = models.SlugField(max_length=64)
-    type = models.IntegerField(choices=MEMBERSHIP_CHOICES, default=FREE)
+    type = models.CharField(max_length=10, choices=MEMBERSHIP_CHOICES, default=FREE)
     price = models.DecimalField(max_digits=5, decimal_places=2)
     stripe_plan_id = models.CharField(max_length=64, null=True)
 
     def __str__(self):
         return self.get_type_display()
+
+    class Meta:
+        ordering = ['price', ]
 
 
 class Subscription(models.Model):

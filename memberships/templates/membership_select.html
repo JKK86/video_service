@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+Select membership
+{% endblock %}
+{% block content %}
+<h1>Select membership</h1>
+    {% for plan in plans %}
+        <div class="item">
+            <h3>{{ plan.get_type_display }}</h3>
+            <p>{{ plan.price }}zł/m</p>
+        </div>
+
+    {% endfor %}
+
+{% endblock %}

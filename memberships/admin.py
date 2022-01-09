@@ -6,7 +6,6 @@ from memberships.models import Membership, Subscription
 @admin.register(Membership)
 class MembershipAdmin(admin.ModelAdmin):
     list_display = ['slug', 'type', 'price']
-    fields = ['slug', 'type', 'price']
     prepopulated_fields = {'slug': ('type',)}
 
 
